@@ -1,0 +1,60 @@
+$ java -jar Multiple_Title_Validation-1.1-jar-with-dependencies.jar "https://www.khanacademy.org|Khan Ac
+ademy" "https://www.p2pu.org|P2PU" "http://www.bigthink.com|bigthink.com" "http://www.uopeople.edu|uopeo
+ple.edu" "http://www.curriki.org|curriki.org" "http://academicearth.org|academicearth.org" "http://demon
+strations.wolfram.com|Wolfram Demonstrations Project" "http://www.saylor.org|Saylor Academy" "http://www
+.ureddit.com|University of Reddit" "https://alison.com|alison.com" "https://www.kyky.org|kyky"
+Test Case ID:           TC-001.01
+URL:                    https://www.khanacademy.org
+Title Expected:         Khan Academy
+Title Actual:           Khan Academy
+Test Case Result:       PASSED
+Test Case ID:           TC-001.02
+URL:                    https://www.p2pu.org
+Title Expected:         P2PU
+Title Actual:           P2PU
+Test Case Result:       PASSED
+Test Case ID:           TC-001.03
+URL:                    http://www.bigthink.com
+Title Expected:         bigthink.com
+Title Actual:           Big Think | Videos, articles, and tips to help you succeed, from the world's leading experts
+Test Case Result:       FAILED
+Test Case ID:           TC-001.04
+URL:                    http://www.uopeople.edu
+Title Expected:         uopeople.edu
+Title Actual:           UoPeople - The world's first tuition-free online university
+Test Case Result:       FAILED
+Test Case ID:           TC-001.05
+URL:                    http://www.curriki.org
+Title Expected:         curriki.org
+Title Actual:           Curriki | Inspiring Learning Everywhere
+Test Case Result:       FAILED
+Test Case ID:           TC-001.06
+URL:                    http://academicearth.org
+Title Expected:         academicearth.org
+Title Actual:           AcademicEarth.org | Free Online Courses from Top Colleges of 2016
+Test Case Result:       FAILED
+Test Case ID:           TC-001.07
+URL:                    http://demonstrations.wolfram.com
+Title Expected:         Wolfram Demonstrations Project
+Title Actual:           Wolfram Demonstrations Project
+Test Case Result:       PASSED
+Test Case ID:           TC-001.08
+URL:                    http://www.saylor.org
+Title Expected:         Saylor Academy
+Title Actual:           Saylor Academy
+Test Case Result:       PASSED
+Test Case ID:           TC-001.09
+URL:                    http://www.ureddit.com
+Title Expected:         University of Reddit
+Title Actual:           University of Reddit
+Test Case Result:       PASSED
+Test Case ID:           TC-001.010
+URL:                    https://alison.com
+Title Expected:         alison.com
+Title Actual:           Free Online Courses & Online Learning from ALISON
+Test Case Result:       FAILED
+Test Case ID:           TC-001.011
+URL:                    https://www.kyky.org
+Title Expected:         kyky
+Title Actual:           Problem loading page
+Test Case Result:       FAILED
